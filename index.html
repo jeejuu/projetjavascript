@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+
+    <form method="POST" name="formulaire" onsubmit="return validateForm()">
+        <h1>FORMULAIRE</h1>
+        <p>
+            <label>Nom:</label><input type="text" name="input" id="nom">
+            <span id="error"></span>
+        </p>
+        <p>
+            <label>Adresse:</label><input type="text" name="input" id="adresse">
+        </p>
+        <p>
+            <label>E-mail:</label><input type="email" name="input" id="mail">
+        </p>
+        <p>
+            <label>Mot de passe:</label><input type="password" name="input" id="pass">
+        </p>
+        <p>
+            <label>Telephone:</label><input type="tel" name="input" id="telephone">
+        </p>
+        <p>
+            <label>COISIR VOTRE COURS</label><select name="cours" id="cours">
+                <option value="PHP">PHP</option>
+                <option value="HTML">HTML</option>
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+                <option value="CSS">CSS</option>
+                <option value="PHOTOSHOP">PHOTOSHOP</option>
+                <option value="ILLUSTRATOR">ILLUSTRATOR</option>
+                
+            </select>
+        </p>
+        <p>
+            <label>Commentaire</label> <br> <textarea name="Commenter" id="commenter" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <button type="submit" >ENVOYER</button> <button type="reset">RESET</button>
+        </p>
+    </form>
+    
+
+
+
+
+    <script src="./js/doc.js"></script>
+</body>
+</html>

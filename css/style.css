@@ -1,0 +1,14 @@
+
+form{
+    justify-content: center;
+    padding-left: 50px;
+    border: solid;
+    border-radius: 50px;
+    margin:10px auto;
+    width: 300px;
+    padding: 20px 12px 10px 20px;
+    
+}
+form p label{
+    margin-left: 0px;
+}
